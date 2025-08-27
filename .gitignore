@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Docker
+*.log
+*.pid
+*.sock
+uploads/
+images
+myntradataset
+styles.csv
+
+# OS
+.DS_Store
+Thumbs.db

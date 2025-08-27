@@ -1,0 +1,9 @@
+.venv/
+.git/
+__pycache__/
+.DS_Store
+.env
+uploads/
+images
+myntradataset
+styles.csv
