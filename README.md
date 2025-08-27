@@ -118,6 +118,43 @@ These files are large, so they are not pushed to GitHub (see .gitignore).
 
 - Browse recommendations directly in the Streamlit UI.
 
+## 📦 Releases & Stable Downloads
+Latest Stable Release
+For the most stable version of FashionX, visit our Releases Page to download:
+
+- v0.1.0 - Initial release with precomputed embeddings
+
+- Pre-trained model weights
+
+- Stable code versions
+
+- Pre-generated dataset files
+
+- Download Latest Release
+```bash
+# Download the latest stable release
+wget https://github.com/ValupadasuSaiabbhiram/FashionX/releases/latest/download/fashionx-v0.1.0.zip
+
+# Or clone specific release tag
+git clone --branch v0.1.0 https://github.com/ValupadasuSaiabbhiram/FashionX.git
+```
+### Why Use Releases?
+✅ Tested and verified code
+
+✅ Pre-computed embeddings included
+
+✅ Stable dependencies
+
+✅ Ready-to-run without additional setup
+
+✅ Production-ready versions
+
+
+## 🗃️ Dataset Information
+The precomputed embeddings [embeddings.pkl](https://github.com/ValupadasuSaiabbhiram/FashionX/releases/download/v0.1.0/embeddings.pkl) and filenames [filenames.pkl](https://github.com/ValupadasuSaiabbhiram/FashionX/releases/download/v0.1.0/filenames.pkl) were generated using the [Fashion Product Images (Small)](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small) dataset from Kaggle.
+
+⚠️ Note: This dataset contains approximately 44,000 images, which may limit recommendation accuracy and diversity. For improved results, consider larger datasets like DeepFashion.
+
 
 ## 🤝 Contributing
 Contributions are welcome!
